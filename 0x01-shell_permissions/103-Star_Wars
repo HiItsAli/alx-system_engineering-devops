@@ -1,2 +1,8 @@
 #!/bin/bash
-telnet towel.blinkenlishts.nl
+# Usage: ./103-Star_Wars
+if ! command -v telnet &> /dev/null; then
+    echo "telnet command could not be found. Please install it and try again."
+    exit 1
+fi
+telnet towel.blinkenlights.nl
+
