@@ -17,4 +17,3 @@ echo "# localhost is used to configure the loopback interface"
 echo "# when the system is booting. Do not change this entry."
 echo "##"
 cat /etc/hosts
-
